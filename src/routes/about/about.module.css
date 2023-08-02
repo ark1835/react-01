@@ -1,0 +1,13 @@
+.abc {
+    background-color: #eee;
+
+    &:hover {
+        background-color: blue;
+    }
+}
+
+:global {
+    * {
+        color: red;
+    }
+}
